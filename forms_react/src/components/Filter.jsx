@@ -8,7 +8,9 @@ const Wrapper = styled.div`
 const Input = styled.input`
   width: 100%;
   padding: 8px;
-  font-size: 1rem;
+  font-size: 16px;
+    border-radius: 4px;
+  border:    3px solid #ddd;
 `;
 
 function Filter({ value, onChange }) {

@@ -13,22 +13,26 @@ const ListItem = styled.li`
 `;
 
 const Text = styled.span`
-  flex: 1;
+  width: 100%;
   margin-left: 8px;
   text-decoration: ${({ completed }) =>
     completed ? 'line-through' : 'none'};
+  color: ${({ completed }) =>
+    completed ? '#95a5a6' : '#2c3e50'};
 `;
 
 const DeleteButton = styled.button`
+font-size: 14px;
   margin-left: 8px;
   background: #e74c3c;
   color: #fff;
   border: none;
-  padding: 4px 8px;
+  padding: 8px 16px;
   cursor: pointer;
-
+  border-radius: 4px;
+  font-weight: bold;
   &:hover {
-    opacity: 0.9;
+    background: #c0392b;
   }
 `;
 

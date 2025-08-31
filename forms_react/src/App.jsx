@@ -15,6 +15,9 @@ const Container = styled.div`
 const Title = styled.h1`
   text-align:     center;
   margin-bottom:  24px;
+  font-size:      32px;
+  font-weight:    bold;
+  color:         #2c3e50;
 `;
 
 class App extends Component {

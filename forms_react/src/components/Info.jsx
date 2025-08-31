@@ -3,7 +3,8 @@ import styled from 'styled-components';
 
 const InfoContainer = styled.div`
   margin-bottom: 20px;
-  font-size: 1rem;
+  font-size: 14px;
+  font-weight: bold;
 `;
 
 const InfoText = styled.p`

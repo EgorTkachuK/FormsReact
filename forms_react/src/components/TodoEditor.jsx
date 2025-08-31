@@ -8,16 +8,25 @@ const Form = styled.form`
 `;
 
 const Input = styled.input`
-  flex:      1;
+  width:    100%;
   padding:   8px;
-  font-size: 1rem;
+  font-size: 16px;
+  border-radius: 4px;
+  border:    3px solid #ddd;
 `;
 
 const Button = styled.button`
   margin-left: 8px;
   padding:     8px 16px;
-  font-size:   1rem;
   cursor:      pointer;
+  background:  #2ecc71;
+  color:       #fff;
+  border:      none;
+  border-radius: 4px;
+  font-weight:  bold;
+   &:hover {
+    background: #27ae60;
+  }
 `;
 
 class TodoEditor extends Component {
